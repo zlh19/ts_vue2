@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "outDir": "./build/",
+      "sourceMap": true,
+      "noImplicitAny":false,
+      "allowSyntheticDefaultImports":true,
+      "experimentalDecorators":true,
+      "module": "es2015",
+      "target": "es5",
+      "lib": ["es2017","dom"]
+  },
+  "include": [
+      "./src/**/*",
+      "./src/main.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
